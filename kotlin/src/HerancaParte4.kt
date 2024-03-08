@@ -25,7 +25,7 @@ fun main() {
     mostraBonus(Analista(8000f))
 
     val p = Programa()
-    
+
     p.salvar(object: Event{
         override fun onSuccess() {
             println("onSuccess")
